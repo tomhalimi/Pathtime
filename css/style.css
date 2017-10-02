@@ -5,9 +5,6 @@
  */
 
 
-body {
-  overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Open Sans', Helvetica, Arial, sans-serif; }
 
 p {
   line-height: 0.1%; }
@@ -319,7 +316,7 @@ header.masthead {
 
 section#contact {
   background-color: #222222;
-  background-image: url("../Images/banner-image.png");
+  background-image: url("../Images/contactus.png");
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
@@ -383,7 +380,6 @@ ul.social-buttons {
   ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
-    display: block;
     width: 40px;
     height: 40px;
     -webkit-transition: all 0.3s;
@@ -442,7 +438,6 @@ ul.social-buttons {
 .btn-xl {
   font-size: 18px;
   font-weight: 700;
-  padding: 20px 40px;
   border-radius: 3px;
   color: white;
   border-color: #dc3545;
