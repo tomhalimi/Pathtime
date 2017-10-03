@@ -27,7 +27,7 @@ h6 {
   text-transform: uppercase; }
 
 section {
-  padding: 1%; }
+  padding: 0.5%; }
   section h2.section-heading {
     font-size: 700;
     margin-top: 0;
@@ -43,7 +43,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 1% 0%; } }
+    padding: 0.1% 0%; } }
 
 ::-moz-selection {
   background: ##EE3046;
