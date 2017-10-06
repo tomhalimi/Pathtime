@@ -30,7 +30,6 @@ section {
   padding: 0.5%; }
   section h2.section-heading {
     font-size: 700;
-    margin-top: 0;
     margin-bottom: 1%; }
   section h3.section-subheading {
     font-size: 16px;
@@ -130,7 +129,7 @@ header.masthead {
     header.masthead .intro-text .intro-lead-in {
       font-size: 3%;
       font-style: italic;
-      line-height: 22px;
+      line-height: 40px;
       font-family: 'Droid Serif', 'Open Sans', Helvetica, Arial, sans-serif; }
     
     data-form .intro-text .intro-heading {
@@ -140,6 +139,8 @@ header.masthead {
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
+
+
 
 @media (min-width: 768px) {
   header.masthead .intro-text {

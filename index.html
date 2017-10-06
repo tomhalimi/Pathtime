@@ -25,6 +25,14 @@
     <!-- Custom styles for this template -->
     <link href="css/style.min.css" rel="stylesheet">
 
+    <!-- modal test 2 --> 
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- fin modal test 2 header -->
+
   </head>
 
   <body id="page-top">
@@ -32,55 +40,64 @@
 
     <!-- Header -->
     <header class="masthead">
-        <div class="intro-text">
-     <div class="intro-lead-in" style="text-shadow: 2px 2px 2px black; margin-bottom: 3%; padding-top: 3%";>Introducing the new way to <strong>go out with friends</strong></div>          
-       <div class="intro-heading" style="text-shadow: 6px 6px 2px black");">Pathtime</div>
-<img src="Images/logonew.png"; width="180" ; height="220">
-          <div class="intro-lead-in" style="padding-top: 1em ; font-size: 28px; text-shadow: 2px 2px 1px black,
+
+    <!-- début du nouveau test --> 
+
+    <!-- normal -->
+  <div class="intro-text" style="min-height: 400px; min-width: 320px">
+
+            <div class="intro-lead-in" style="text-shadow: 2px 2px 2px black; padding-top: 2%; padding-bottom: 1%">Introducing the new way to <strong>go out with friends</strong></div>          
+            <div class="intro-heading" style="text-shadow: 6px 6px 2px black; font-size: 600%;");">Pathtime</div>
+            <img src="Images/logonew.png"; width="15%" ; height="15%">
+            <div class="intro-lead-in" style="padding-top: 1em ; text-shadow: 2px 2px 1px black,
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);">We are launching in 2018, sign up to join the community right now !</div>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin: 2.8%; font-size: 32px">
-  Join Us !
-</button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-xl btn-lg" id="sendMessageButton" data-toggle="modal" data-target="#myModal" style="margin: 2.5%; font-size: 32px"><strong>
+                Join Us !</strong>
+              </button>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-  <!-- questionnaire WUFOO dans la modal-->
-          <div id="wufoo-z1vba4801lzjnrb">
-Fill out my <a href="https://pathtime.wufoo.com/forms/z1vba4801lzjnrb">online form</a>.
-</div>
-<script type="text/javascript">var z1vba4801lzjnrb;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'pathtime',
-'formHash':'z1vba4801lzjnrb',
-'autoResize':true,
-'height':'340',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z1vba4801lzjnrb = new WufooForm();z1vba4801lzjnrb.initialize(options);z1vba4801lzjnrb.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
-<!-- fin questionnaire -->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                          </div>
+                          <div class="modal-body">
+                      <!-- questionnaire WUFOO dans la modal-->
+                              <div id="wufoo-z1vba4801lzjnrb">
+                    Fill out my <a href="https://pathtime.wufoo.com/forms/z1vba4801lzjnrb">online form</a>.
+                    </div>
+                    <script type="text/javascript">var z1vba4801lzjnrb;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'pathtime',
+                    'formHash':'z1vba4801lzjnrb',
+                    'autoResize':true,
+                    'height':'340',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { z1vba4801lzjnrb = new WufooForm();z1vba4801lzjnrb.initialize(options);z1vba4801lzjnrb.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                    <!-- fin questionnaire -->
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+
+                
+    <!-- fin normal -->
+
+
   </div>
 </div>
 
@@ -93,7 +110,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">FEATURES</h2>
+            <h2 class="section-heading"><strong>FEATURES</strong></h2>
             <h3 class="section-subheading text-muted">We started the story, let's continue it together !</h3>
           </div>
         </div></div></section>
@@ -132,7 +149,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-left:5%; padding-right: 5%">
-            <h2 class="section-heading">FEATURES</h2>
+            <h2 class="section-heading"><strong>FEATURES</strong></h2>
             <h3 class="section-subheading text-muted">We started the story, let's continue it together !</h3>
           </div>
         </div>
@@ -208,7 +225,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
+              <li class="timeline-inverted" style="margin-bottom: 50px">
                 <div class="timeline-image">
                   <h4>Become
                     <br>Bêta
@@ -226,7 +243,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Our Amazing Team</h2>
+            <h2 class="section-heading"><strong>Our Amazing Team</strong></h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
@@ -313,12 +330,15 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading" style="margin-bottom: 4%">Contact Us</h2>
+            <h2 class="section-heading" style="margin-bottom: 4%"><strong>Contact Us</strong></h2>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
+            <!-- début du test     <form id="contactForm" name="sentMessage" novalidate>   -->
+
+            <form action="http://pathtime.fr" id="contactForm" name="sentMessage" novalidate>
+
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -343,8 +363,10 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Send Message</button>
+                  <button id="sendMessageButton" class="btn btn-xl" type="submit" style="margin: 2.8%; font-size: 24px">Send Message</button>
                 </div>
+
+
               </div>
             </form>
           </div>
