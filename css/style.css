@@ -16,6 +16,7 @@ a {
 
 .form-input {font-size: 10px}
 
+
 h1,
 h2,
 h3,
@@ -40,9 +41,6 @@ section {
     font-family: 'Droid Serif', 'Open Sans', Helvetica, Arial, sans-serif; 
   }
 
-@media (min-width: 768px) {
-  section {
-    padding: 0.1% 0%; } }
 
 ::-moz-selection {
   background: ##EE3046;
@@ -61,57 +59,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #dc3545; }
 
-#mainNav {
-  background-color: #222222; }
-  #mainNav .navbar-toggler {
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
-    color: white;
-    border: 0;
-    background-color: #dc3545;
-    font-family: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
-  #mainNav .navbar-brand {
-    color: #dc3545;
-    font-family: 'Kaushan Script', 'Open Sans', Helvetica, Arial, cursive; }
-    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
-    font-weight: 400;
-    padding: 0.75em 0;
-    letter-spacing: 1px;
-    color: white;
-    font-family: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
-    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #dc3545; }
 
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent; }
-    #mainNav .navbar-brand {
-      font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; }
-    #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important; }
-    #mainNav.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: #222222; }
-      #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0; } }
 
 header.masthead {
   text-align: center;
@@ -271,7 +219,7 @@ header.masthead {
       padding: 0 30px 20px 20px;
       text-align: left; } }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .timeline > li {
     min-height: 150px; }
     .timeline > li .timeline-panel {
