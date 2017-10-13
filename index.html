@@ -13,32 +13,37 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- new rel for bootstrap 4 & modal -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/style.min.css" rel="stylesheet">
-
-    <!-- modal test 2 --> 
-      <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- fin modal test 2 header -->
 
 
   </head>
 
   <body id="page-top">
 
- 
+ <!-- test navbar --> 
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#"><strong><img src="Images/logo.png" style="height: 50px; width: 40px; margin-right: 30px ;">PathTime</strong></a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+
+      </div>
+    </nav>
+ <!-- fin test navbar-->
   <header class="masthead">
 
 
@@ -54,41 +59,51 @@
                 Join Us !</strong>
               </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                          </div>
-                          <div class="modal-body">
-                      <!-- questionnaire WUFOO dans la modal-->
-                              <div id="wufoo-z1vba4801lzjnrb">
-                    Fill out my <a href="https://pathtime.wufoo.com/forms/z1vba4801lzjnrb">online form</a>.
-                    </div>
-                    <script type="text/javascript">var z1vba4801lzjnrb;(function(d, t) {
-                    var s = d.createElement(t), options = {
-                    'userName':'pathtime',
-                    'formHash':'z1vba4801lzjnrb',
-                    'autoResize':true,
-                    'height':'340',
-                    'async':true,
-                    'host':'wufoo.com',
-                    'header':'show',
-                    'ssl':true};
-                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                    s.onload = s.onreadystatechange = function() {
-                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                    try { z1vba4801lzjnrb = new WufooForm();z1vba4801lzjnrb.initialize(options);z1vba4801lzjnrb.display(); } catch (e) {}};
-                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                    })(document, 'script');</script>
-                    <!-- fin questionnaire -->
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                      </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="row">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="color:#292b2c; text-align: center">Become a <em>Pather</em></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div></div>
+      <div class="modal-body">
+      <!-- questionnaire wufoo -->
+  <div class="form-group row">
+      <p style="color:#868e96!important; margin:auto; padding-top: 10px; padding-bottom: 8px"><em>Join the happy fews to have the app and start the community !</em></p>
+  <label for="example-text-input" class="col-2 col-form-label">Text</label>
+  <div class="col-10">
+    <input class="form-control" type="text" value="Mathis" id="example-text-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-search-input" class="col-2 col-form-label">Search</label>
+  <div class="col-10">
+    <input class="form-control" type="search" value="HALIMI" id="example-search-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+  <div class="col-10">
+    <input class="form-control" type="email" value="mathis@pathtime.fr" id="example-email-input">
+  </div>
+</div>
+</div>
+
+      <!-- fin questionnaire wufoo -->  
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" style="margin:auto">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+              <!-- fin modal -->
 
   </div>
 </div>
@@ -101,10 +116,7 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading"><strong>FEATURES</strong></h2>
-            <h3 class="section-subheading text-muted">We started the story, let's continue it together !</h3>
-          </div>
+         
         </div></div></section>
 
     <!-- fin du test-->
@@ -115,7 +127,7 @@
             <img class="rounded-circle img-fluid" src="Images/fatigue.png" alt="">
             </span>
             <h4 class="service-heading" style="padding-top: 1em">Isn't it boring to do the same things every time?</h4>
-            <p class="text-justify" style="color:#868e96!important">Perhaps it's time to try something new. But to do so should you rely on websites that orient everyone to the same places? A comment is only useful if the person providing it likes the same things you do. </p>
+            <p class="text-justify" style="color:#868e96!important">Maybe it's time to try something new. But should you rely on websites that orient everyone to the same places? A comment is only useful if the person providing it likes the same things you do. </p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -130,7 +142,7 @@
               <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading" style="padding-top: 1em">And if they still don't want to go?</h4>
-           <p class="text-justify" style="color:#868e96!important">Do you give up? Or do you look for others that would love to go? You may not know them. You may have very few things in common. But you can share the same passion, the same desire, and that is more precious than anything.</p>
+           <p class="text-justify" style="color:#868e96!important">Do you give up? Or do you look for others that would love to go? You may not know them, but you can share the same passion, the same desire, and that is more precious than anything.</p>
           </div>
         </div>
       </div>
@@ -143,7 +155,7 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-left:5%; padding-right: 5%">
             <h2 class="section-heading"><strong>FEATURES</strong></h2>
-            <h3 class="section-subheading text-muted" style="padding: 1em">Based on your mood, Follow the right path, Of trust worthy Pathers. Share your uniqueness, and ou'll remember it forever.</h3>
+            <h3 class="section-subheading text-muted" style="padding: 1em">Based on your mood, Follow the right path, Of trustworthy Pathers. Share your uniqueness, and ou'll remember it forever.</h3>
           </div>
         </div>
 
@@ -185,7 +197,7 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>Of pathers trust worthy...</h4>
+                    <h4>Of pathers trustworthy...</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">We only show you the paths that were created or tested by users that look like you and your friends.</p>
@@ -220,11 +232,56 @@
                 </div>
               </li>
               <li class="timeline-inverted" style="margin-bottom: 50px">
-                <div class="timeline-image">
-                  <h4>Become
-                    <br>Bêta
-                    <br>Tester!</h4>
-                </div>
+
+        <!-- début scandal modal 2 --> 
+  <button type="button" class="btn btn-xl btn-lg" id="betatesterbutton" data-toggle="modal" data-target="#myModal" style="margin: 2.5%; font-size: 32px">                  <img class="rounded-circle img-fluid" alt=""><h4 style="vertical-align:center">Become<br>Bêta<br>Tester!</h4>
+              </button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <!-- questionnaire wufoo -->
+      <div id="wufoo-qpwmxjo0wt5lzq">
+Fill out my <a href="https://pathtime.wufoo.com/forms/qpwmxjo0wt5lzq">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+<script type="text/javascript">var qpwmxjo0wt5lzq;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'pathtime',
+'formHash':'qpwmxjo0wt5lzq',
+'autoResize':true,
+'height':'320',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { qpwmxjo0wt5lzq = new WufooForm();qpwmxjo0wt5lzq.initialize(options);qpwmxjo0wt5lzq.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+      <!-- fin questionnaire wufoo -->  
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- fin scandal --> 
               </li>
             </ul>
           </div>
@@ -373,7 +430,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2017</span>
+            <span class="copyright">Copyright &copy; PathTime</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">

@@ -1,7 +1,7 @@
 /*!
  * Start Bootstrap - Agency v4.0.0-beta (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ * LicensendMessageButtond under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
 
@@ -43,11 +43,11 @@ section {
 
 
 ::-moz-selection {
-  background: ##EE3046;
+  background: #EE3046;
   text-shadow: none; }
 
 ::selection {
-  background: ##EE3046;
+  background: #EE3046;
   text-shadow: none; }
 
 img::selection {
