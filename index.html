@@ -63,9 +63,9 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-    <div class="row">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" style="color:#292b2c; text-align: center">Become a <em>Pather</em></h5>
+    <div class="row" style="margin:0px">
+      <div class="modal-header" style="width: 100%">
+        <h5 class="modal-title" id="exampleModalLabel" style="color:#292b2c; width: 100%">Become a <em>Pather</em></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -73,22 +73,19 @@
       <div class="modal-body">
       <!-- questionnaire wufoo -->
   <div class="form-group row">
-      <p style="color:#868e96!important; margin:auto; padding-top: 10px; padding-bottom: 8px"><em>Join the happy fews to have the app and start the community !</em></p>
-  <label for="example-text-input" class="col-2 col-form-label">Text</label>
-  <div class="col-10">
-    <input class="form-control" type="text" value="Mathis" id="example-text-input">
+      <p style="color:#868e96!important; width: 100%; padding-top: 10px; padding-bottom: 8px"><em>Join the happy fews to have the app and start the community !</em></p>
+  <div class="col-10 col-md-offset-1" style="margin-left: 10%;">
+    <input class="form-control" type="text" placeholder="First Name" id="example-text-input">
   </div>
 </div>
 <div class="form-group row">
-  <label for="example-search-input" class="col-2 col-form-label">Search</label>
-  <div class="col-10">
-    <input class="form-control" type="search" value="HALIMI" id="example-search-input">
+  <div class="col-10 col-md-offset-1" style="margin-left: 10%;">
+    <input class="form-control" type="search" placeholder="Last Name" id="example-search-input">
   </div>
 </div>
 <div class="form-group row">
-  <label for="example-email-input" class="col-2 col-form-label">Email</label>
-  <div class="col-10">
-    <input class="form-control" type="email" value="mathis@pathtime.fr" id="example-email-input">
+  <div class="col-10 col-md-offset-1" style="margin-left: 10%;">
+    <input class="form-control" type="email" placeholder="Email" id="example-email-input">
   </div>
 </div>
 </div>
@@ -96,13 +93,12 @@
       <!-- fin questionnaire wufoo -->  
 
 
-      </div>
-      <div class="modal-footer">
+          <div class="modal-footer">
         <button type="button" class="btn btn-primary" style="margin:auto">Submit</button>
       </div>
     </div>
   </div>
-</div>
+</div></div>
               <!-- fin modal -->
 
   </div>
@@ -234,7 +230,7 @@
               <li class="timeline-inverted" style="margin-bottom: 50px">
 
         <!-- début scandal modal 2 --> 
-  <button type="button" class="btn btn-xl btn-lg" id="betatesterbutton" data-toggle="modal" data-target="#myModal" style="margin: 2.5%; font-size: 32px">                  <img class="rounded-circle img-fluid" alt=""><h4 style="vertical-align:center">Become<br>Bêta<br>Tester!</h4>
+  <button type="button" class="btn btn-xl btn-lg" id="betatesterbutton" data-toggle="modal" data-target="#myModal" style="margin: 2.5%; margin-bottom: 0px; font-size: 32px; height: 150px"><img class="rounded-circle img-fluid" alt=""><h4 style="vertical-align:center">Become<br>Bêta<br>Tester!</h4>
               </button>
 
 <!-- Modal -->
@@ -414,7 +410,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-xl" type="submit" style="margin: 2.8%; font-size: 24px">Send Message</button>
+                  <button id="sendMessageButton" class="btn btn-xl" type="submit" style="margin: 2.8%; font-size: 24px;">Send Message</button>
                 </div>
 
 

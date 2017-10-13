@@ -23,7 +23,7 @@
  @media (min-width:768px)
  {section{padding-top:2%;}}
 
-#betatesterbutton {border-radius: 50%}
+#betatesterbutton {border-radius: 50%; display: inline-flex;}
 
 
 
